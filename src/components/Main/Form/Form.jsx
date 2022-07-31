@@ -30,10 +30,10 @@ const Form = () => {
             </FormControl>
         </Grid>
         <Grid item xs={6}>
-            <TextField type="number" label="Amount"></TextField>
+            <TextField type="number" label="Amount" fullWidth></TextField>
         </Grid>
         <Grid item xs={6}>
-            <TextField type="date" label="Date"></TextField>
+            <TextField type="date" label="Date" fullWidth></TextField>
         </Grid>
         <Button className={classes.button} variant="outlined" color='primary' fullWidth>Create</Button>
     </Grid>
